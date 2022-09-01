@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonio - Cars</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+  <!-- NAVBAR -->
+<nav class="navbar">
+<div class="navbar__container">
+    <a href="#home" id="navbar__logo"><img src="logo.svg" height="200" width="200"></a>
+    <div class="navbar__toggle" id="mobile-menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    </div>
+    <ul class="navbar__menu">
+    <li class="navbar__item">
+        <a href="index.html#home" class="navbar__links" id="home-page">Home</a>
+    </li>
+    <li class="navbar__item">
+        <a href="index.html#about" class="navbar__links" id="about-page">About us</a>
+    </li>
+    <li class="navbar__item">
+        <a href="index.html#why" class="navbar__links" id="about-page">Why us</a>
+    </li>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Services</button>
+        <div id="myDropdown" class="dropdown-content">
+        <a href="bodywork.html" class="navbar__links" id="about-page">Body work</a>
+        <a href="painting.html" class="navbar__links" id="about-page">Painting</a>
+        <a href="tirerepair_optics.html" class="navbar__links" id="about-page">Tire repair and optics</a>
+        <a href="detailing.html" class="navbar__links" id="about-page">Detailing</a>
+        <a href="mechanicwork.html" class="navbar__links" id="about-page">Mechanic work</a>
+        <a href="index.html#services" class="navbar__links" id="about-page">View all services</a>
+        </div>
+    </div> 
+    <li class="navbar__item">
+        <a href="cars.html" class="navbar__links" id="about-page">Our favorite projects</a>
+    </li>
+    <li class="navbar__btn">
+        <a href="contact.html" class="button" id="signup">Contact</a>
+    </li>
+    
+    </ul>
+</div>
+</nav>
+
+<div class="welcome">
+    <div class="welcome__container">
+        <h1 class="welcome__heading">Our favorite projects</h1>
+    </div>
+</div>
+<div class="main">
+    <div class="main__content">
+        <h1>BMW E39 540i</h1>
+        <p>This is a 1997. 540i powered by 4.4 liter V8 which develops 286hp at 5800rpm. Color name is cosmoschwartz which is a black color with blue and purple particles.</p>
+        <p>This car has seen a lot of mechanic work from us - it has the rebuilt engine, detailed interior and new sport tires along with corrected optics. All in all, our client got exactly what he wanted and is now happily driving his V8 everywhere!</p>
+    </div>
+    <div class="main__video--container">
+        <video class="responsive" controls loop>
+          <source src="e39.mp4" type="video/mp4">
+          <source src="e39.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+        <img src="e391.jpg" alt="bmw e39 540i" height="500px" width="400px">
+    </div>
+    <div class="main__content">
+        <h1>BMW E30 318is</h1>
+        <p>This is a 1989. 318is that is running little but sporty 1.8 liter that develops 136hp at 6000rpm. Due to this cars weight, 136hp in this car feel like a lot more. It's engine is a revolutionary masterpiece which is comparable to even today's modern engines since it's 16V. </p>
+        <p>This car had a lot of bodywork because it was really rusty, also we rebuilt the engine and swapped it, provided new wheels and tires, corrected the optics, restored suspension and lowered the car.</p>
+    </div>
+    <img src="e301.jpg" alt="bmw e30 318is" class="responsive" height="500px" width="700px">
+    <img src="e302.jpg" alt="bmw e30 318is" class="responsive" height="500px" width="700px">
+</div>
+
+
+<script src='app.js'></script>
+</body>
+</html>

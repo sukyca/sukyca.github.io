@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autonio - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+  <!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar__container">
+    <a href="#home" id="navbar__logo"><img src="logo.svg" height="200" width="200"></a>
+    <div class="navbar__toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="#home" class="navbar__links" id="home-page">Home</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#about" class="navbar__links" id="about-page">About us</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#why" class="navbar__links" id="about-page">Why us</a>
+      </li>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Services</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="bodywork.html" class="navbar__links" id="about-page">Body work</a>
+          <a href="painting.html" class="navbar__links" id="about-page">Painting</a>
+          <a href="tirerepair_optics.html" class="navbar__links" id="about-page">Tire repair and optics</a>
+          <a href="detailing.html" class="navbar__links" id="about-page">Detailing</a>
+          <a href="mechanicwork.html" class="navbar__links" id="about-page">Mechanic work</a>
+          <a href="#services" class="navbar__links" id="about-page">View all services</a>
+        </div>
+      </div> 
+      <li class="navbar__item">
+        <a href="cars.html" class="navbar__links" id="about-page">Our favorite projects</a>
+      </li>
+      <li class="navbar__btn">
+        <a href="contact.html" class="button" id="signup">Contact</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+<!-- welcome Section -->
+<div class="welcome" id="home">
+  <div class="welcome__container">
+    <h1 class="welcome__heading">Welcome to <span>Autonio</span></h1>
+    <p class="welcome__description">~Where old meets perfect~</p>
+  </div>
+</div>
+<!-- About section-->
+<div class="main" id="about">
+  <div class="main__container">
+    <img src="garage.jpg" class="responsive">
+  </img>
+    <div class="main__content">
+      <h1>Who are we?</h1>
+      <p>
+        We are a car service that specialized in restoring and improving old cars - we provide services such as body work, painting, tire repair, optics, detailing and mechanic work.
+      </p>
+
+    </div>
+  </div>
+</div>
+<!--Why-->
+<div class="main" id="why">
+  <div class="main__container">
+    <div class="main__video--container">
+    <video class="responsive" controls loop>
+      <source src="marketing.mp4" type="video/mp4">
+      <source src="marketing.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video></div>
+    <div class="main__content">
+      <h1>Why do you need us?</h1>
+      <p>If you love old cars but you're unsure on how to approach the idea of restoration or you simply can't find the time for that - we are just the service for you!</p>
+      <p>Kick back and relax because Autonio has got it all. We'll handle everything and provide daily updates so you can track the restoration progress.</p>
+      <button class="main__btn"><a href="contact.html">Contact us!</a></button>
+    </div>
+  </div>
+</div>
+
+<!-- services section-->
+<div class="services" id="services">
+    <h1>Services</h1>
+  <div class="services__wrapper">
+    <a href="bodywork.html">
+    <div class="services__card">
+      <h2>Body Work</h2>
+      <p>Find out more about body work</p>
+      <p class="pdescription">(Click to see more)</p>
+    </div></a>
+    <a href="painting.html">
+      <div class="services__card">
+      <h2>Painting</h2>
+      <p>Find out more about painting</p>
+      <p class="pdescription">(Click to see more)</p>
+    </div></a>
+    <a href="tirerepair_optics.html">
+      <div class="services__card">
+      <h2>Tire repair and optics</h2>
+      <p>Find out more about tire repair and optics</p>
+      <p class="pdescription">(Click to see more)</p>
+    </div></a>
+    <a href="detailing.html">
+      <div class="services__card">
+      <h2>Detailing</h2>
+      <p>Find out more about detailing</p>
+      <p class="pdescription">(Click to see more)</p>
+    </div></a>
+    <a href="mechanicwork.html">
+      <div class="services__card">
+      <h2>Mechanic work</h2>
+      <p>Find out more about mechanic work</p>
+      <p class="pdescription">(Click to see more)</p>
+    </div></a>
+    <a href="contact.html">
+      <div class="services__card">
+      <h2>Contact us!</h2>
+      <p>Feel free to contact us</p>
+      <p class="pdescription">(Click to go to contact page)</p>
+    </div></a>
+  </div>
+</div>
+
+<script src='app.js'></script>
+</body>
+</html>
